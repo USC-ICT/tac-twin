@@ -1,0 +1,5 @@
+Toggle Scenario Config Menu: "F1"
+Release Cursor Toggle: "J"
+Cycle Config Menu Tab: "Tab"
+Push To Talk Shortcut: "V"
+Toggle Webcam Preview : "F"

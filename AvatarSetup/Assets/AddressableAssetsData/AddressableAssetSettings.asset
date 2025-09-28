@@ -1,0 +1,234 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 468a46d0ae32c3544b7d98094e6448a9, type: 3}
+  m_Name: AddressableAssetSettings
+  m_EditorClassIdentifier: 
+  m_DefaultGroup: 217cbe2b63dad294e9c3bee4f2afb365
+  m_currentHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_OptimizeCatalogSize: 0
+  m_BuildRemoteCatalog: 1
+  m_BundleLocalCatalog: 0
+  m_CatalogRequestsTimeout: 0
+  m_DisableCatalogUpdateOnStart: 0
+  m_InternalIdNamingMode: 0
+  m_InternalBundleIdMode: 1
+  m_AssetLoadMode: 0
+  m_BundledAssetProviderType:
+    m_AssemblyName: Unity.ResourceManager, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    m_ClassName: UnityEngine.ResourceManagement.ResourceProviders.BundledAssetProvider
+  m_AssetBundleProviderType:
+    m_AssemblyName: Unity.ResourceManager, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    m_ClassName: UnityEngine.ResourceManagement.ResourceProviders.AssetBundleProvider
+  m_IgnoreUnsupportedFilesInBuild: 0
+  m_UniqueBundleIds: 0
+  m_EnableJsonCatalog: 1
+  m_NonRecursiveBuilding: 1
+  m_CCDEnabled: 0
+  m_maxConcurrentWebRequests: 3
+  m_UseUWRForLocalBundles: 0
+  m_BundleTimeout: 0
+  m_BundleRetryCount: 0
+  m_BundleRedirectLimit: -1
+  m_SharedBundleSettings: 0
+  m_SharedBundleSettingsCustomGroupIndex: 0
+  m_ContiguousBundles: 1
+  m_StripUnityVersionFromBundleBuild: 0
+  m_DisableVisibleSubAssetRepresentations: 0
+  m_BuiltInBundleNaming: 0
+  mBuiltInBundleCustomNaming: 
+  m_MonoScriptBundleNaming: 0
+  m_CheckForContentUpdateRestrictionsOption: 0
+  m_MonoScriptBundleCustomNaming: 
+  m_RemoteCatalogBuildPath:
+    m_Id: 2de88550a79d6244e9c0b32f0fbdfe5c
+  m_RemoteCatalogLoadPath:
+    m_Id: 83b3da93394304f4e88aab01c5bf6a17
+  m_ContentStateBuildPathProfileVariableName: <default settings path>
+  m_CustomContentStateBuildPath: 
+  m_ContentStateBuildPath: 
+  m_BuildAddressablesWithPlayerBuild: 0
+  m_overridePlayerVersion: '[UnityEditor.PlayerSettings.bundleVersion]'
+  m_GroupAssets:
+  - {fileID: 11400000, guid: 0d48999f1e2d83647ac64ecd05ce873f, type: 2}
+  m_BuildSettings:
+    m_LogResourceManagerExceptions: 1
+    m_BundleBuildPath: Temp/com.unity.addressables/AssetBundles
+  m_ProfileSettings:
+    m_Profiles:
+    - m_InheritedParent: 
+      m_Id: 1f31d42a49c53b8458b179e414eb8468
+      m_ProfileName: Default
+      m_Values:
+      - m_Id: 2de88550a79d6244e9c0b32f0fbdfe5c
+        m_Value: '[UnityEngine.Application.persistentDataPath]/Addressables/[UnityVersion]/[RenderPipeline]/[BuildTarget]/'
+      - m_Id: 541aeb23585c7d6478e75fd653368902
+        m_Value: https://ride-owt.s3.us-west-2.amazonaws.com/Test/addressable-test/[Project]/[UnityVersion]/[RenderPipeline]/[BuildTarget]/
+      - m_Id: 69aed27766b7a984ca842a86b9c04de8
+        m_Value: '[UnityEngine.Application.unityVersion]'
+      - m_Id: 83b3da93394304f4e88aab01c5bf6a17
+        m_Value: '[UnityEngine.Application.persistentDataPath]/Addressables/[UnityVersion]/[RenderPipeline]/[BuildTarget]/'
+      - m_Id: 9f93ddc638fa1fa40ac8c4e27ff9db5c
+        m_Value: '[UnityEngine.Application.persistentDataPath]/Addressables/[UnityVersion]/[RenderPipeline]/[BuildTarget]/'
+      - m_Id: d73a68c2c522b2142986a3860c775e77
+        m_Value: '[UnityEditor.PlayerSettings.productName]'
+      - m_Id: f57caa5ba860f1d44a601dc4f23b1619
+        m_Value: HDRP
+      - m_Id: fdc9895527367324f9ecec46224bc164
+        m_Value: '[UnityEditor.EditorUserBuildSettings.activeBuildTarget]'
+    m_ProfileEntryNames:
+    - m_Id: 2de88550a79d6244e9c0b32f0fbdfe5c
+      m_Name: Local.BuildPath
+      m_InlineUsage: 0
+    - m_Id: 541aeb23585c7d6478e75fd653368902
+      m_Name: Remote.LoadPath
+      m_InlineUsage: 0
+    - m_Id: 69aed27766b7a984ca842a86b9c04de8
+      m_Name: UnityVersion
+      m_InlineUsage: 0
+    - m_Id: 83b3da93394304f4e88aab01c5bf6a17
+      m_Name: Local.LoadPath
+      m_InlineUsage: 0
+    - m_Id: 9f93ddc638fa1fa40ac8c4e27ff9db5c
+      m_Name: Remote.BuildPath
+      m_InlineUsage: 0
+    - m_Id: d73a68c2c522b2142986a3860c775e77
+      m_Name: Project
+      m_InlineUsage: 0
+    - m_Id: f57caa5ba860f1d44a601dc4f23b1619
+      m_Name: RenderPipeline
+      m_InlineUsage: 0
+    - m_Id: fdc9895527367324f9ecec46224bc164
+      m_Name: BuildTarget
+      m_InlineUsage: 0
+    m_ProfileVersion: 1
+  m_LabelTable:
+    m_LabelNames:
+    - CC_Character
+    - 001-John_Civ
+    - 002-Max_Ocp
+    - 003-Arno
+    - 004-Ed
+    - 005-Kevin
+    - 006-CCTest01
+    - 007-CCTest02
+    - 008-CCTest03
+    - 009-CCTest04
+    - 010-CCTest05
+    - 011-CCTest06
+    - 012-CCTest07
+    - 013-CCTest08
+    - 014-CCTest09
+    - 015-CCTest10
+    - 016-CadetFml01
+    - 017-CadetMle01
+    - 018-CadetMle02
+    - 019-CadetMle03
+    - 020-CadetMle04
+    - 021-CadetMle05
+    - 022-CadetMle06
+    - 023-CadetMle07
+    - 024-CadetMle08
+    - 025-GeminiFml01
+    - 026-GeminiFml02
+    - 027-GeminiMle02
+    - 028-GeminiMle01
+    - 029-GeminiFml03
+    - 030_ChatGpt_FmlAsn01
+    - 031_ChatGpt_FmlBlk01
+    - 032_ChatGpt_FmlLat01
+    - 033_ChatGpt_FmlMde01
+    - 034_ChatGpt_FmlWht01
+    - 035_ChatGpt_MleAsn01
+    - 036_ChatGpt_MleBlk01
+    - 037_ChatGpt_MleLat01
+    - 038_ChatGpt_MleMde01
+    - 039_ChatGpt_MleWht01
+    - 040_cc_Ed01
+    - 041_cc_Kevin01
+    - 042_ChatGpt_MleWht02
+    - 043_cc_Kevin02
+    - 044_cc_Arno02
+    - 045_cc_Andrew02
+    - Portrait
+    - Portrait_cc_chatGpt_MleBlk01_Portrait
+    - Portrait_cc_chatGpt_FmlLat01_Portrait
+    - Portrait_cc_Arno02_Portrait
+    - Portrait_cc_chatGpt_MleLat01_Portrait
+    - Portrait_cc_chatGpt_MleAsn01_Portrait
+    - Portrait_cc_chatGpt_FmlWht01_Portrait
+    - Portrait_cc_chatGpt_FmlAsn01_Portrait
+    - Portrait_cc_Ed01_Portrait
+    - Portrait_cc_chatGpt_MleWht01_Portrait
+    - Portrait_cc_chatGpt_FmlMde01_Portrait
+    - Portrait_cc_chatGpt_MleWht02_Portrait
+    - Portrait_cc_Andrew02_Portrait
+    - Portrait_cc_chatGpt_FmlBlk01_Portrait
+    - Portrait_cc_Kevin01_Portrait
+    - Portrait_CC_John_Portrait
+    - Portrait_cc_chatGpt_MleMde01_Portrait
+    - cc_chatGpt_MleBlk01_Portrait
+    - cc_chatGpt_FmlLat01_Portrait
+    - cc_Arno02_Portrait
+    - cc_chatGpt_MleLat01_Portrait
+    - cc_chatGpt_MleAsn01_Portrait
+    - cc_chatGpt_FmlWht01_Portrait
+    - cc_chatGpt_FmlAsn01_Portrait
+    - cc_Ed01_Portrait
+    - cc_chatGpt_MleWht01_Portrait
+    - cc_chatGpt_FmlMde01_Portrait
+    - cc_chatGpt_MleWht02_Portrait
+    - cc_Andrew02_Portrait
+    - cc_chatGpt_FmlBlk01_Portrait
+    - cc_Kevin01_Portrait
+    - CC_John_Portrait
+    - cc_chatGpt_MleMde01_Portrait
+    - 046_cc_Edwin01
+    - cc_Edwin_01_Portrait
+    - chatGpt_MleAsn02
+    - chatGpt_MleWht02
+    - chatGpt_MleBlk02
+    - chatGpt_MleLat02
+    - chatGpt_MleMde02
+    - chatGpt_FmlAsn02
+    - chatGpt_FmlWht02
+    - chatGpt_FmlBlk02
+    - chatGpt_FmlLat02
+    - chatGpt_FmlMde02
+    - cc_chatGpt_MleAsn02_Portrait
+    - cc_chatGpt_MleLat02_Portrait
+    - cc_chatGpt_MleBlk02_Portrait
+    - cc_chatGpt_FmlBlk02_Portrait
+    - cc_chatGpt_FmlAsn02_Portrait
+    - cc_chatGpt_FmlLat02_Portrait
+    - cc_chatGpt_MleMde02_Portrait
+    - cc_chatGpt_FmlMde02_Portrait
+    - cc_chatGpt_MleWht03
+    - cc_chatGpt_FmlInd02
+    - cc_chatGpt_FmlInd01
+    - cc_chatGpt_FmlInd02_Portrait
+    - cc_chatGpt_MleWht03_Portrait
+    - cc_chatGpt_FmlInd01_Portrait
+  m_SchemaTemplates: []
+  m_GroupTemplateObjects:
+  - {fileID: 11400000, guid: 181002b2440c78f40b58b4de67a9a908, type: 2}
+  m_InitializationObjects: []
+  m_CertificateHandlerType:
+    m_AssemblyName: 
+    m_ClassName: 
+  m_ActivePlayerDataBuilderIndex: 2
+  m_DataBuilders:
+  - {fileID: 11400000, guid: 35e9274c0197c7c4683136396bb69fdb, type: 2}
+  - {fileID: 11400000, guid: b870a0cf6aaf1ae499c9036a8e64c099, type: 2}
+  - {fileID: 11400000, guid: 332eb5bbb703a154cbe314481949a2b5, type: 2}
+  m_ActiveProfileId: 1f31d42a49c53b8458b179e414eb8468

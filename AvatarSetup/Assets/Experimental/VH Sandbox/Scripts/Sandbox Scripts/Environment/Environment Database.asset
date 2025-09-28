@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 616c1b123ab3d514c9b83750e6ba5b26, type: 3}
+  m_Name: Environment Database
+  m_EditorClassIdentifier: 
+  m_environments:
+  - terrainSO: {fileID: 11400000, guid: 3fc8318c9ddd8304caa8f0b4e994baa9, type: 2}
+    loadPosition: {x: -51.7, y: 0, z: 166.4}
+  - terrainSO: {fileID: 11400000, guid: 8d34db3001a34cb43baa0321bcd93dcf, type: 2}
+    loadPosition: {x: 157, y: 0, z: 37}
+  - terrainSO: {fileID: 11400000, guid: f191fa2e0d1309d4984a1320f7f3aa78, type: 2}
+    loadPosition: {x: 21.3, y: 0, z: -8.4}
+  - terrainSO: {fileID: 11400000, guid: d2d9b10a64fb89f4780696021135a62c, type: 2}
+    loadPosition: {x: 0, y: 0, z: 0}
+  - terrainSO: {fileID: 11400000, guid: 539a2386efb0ffb4fbfb12c277632248, type: 2}
+    loadPosition: {x: 0, y: 0, z: 0}
+  - terrainSO: {fileID: 11400000, guid: a751d1c844106de47998b08d5d377d19, type: 2}
+    loadPosition: {x: 0, y: 0, z: 0}
