@@ -4,10 +4,7 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes:
-  - enabled: 1
-    path: Assets/Bravemind/Scenes/BMSadajanNTCDriving.unity
-    guid: 1ff2ef891f4831e4189b5b340ae3da16
+  m_Scenes: []
   m_configObjects:
     com.unity.addressableassets: {fileID: 11400000, guid: 65a15bd49d4de004c8f54c0fc6690443, type: 2}
   m_UseUCBPForAssetBundles: 0
